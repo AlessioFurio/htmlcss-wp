@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+body {
+  height: 100%;
+
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
+header {
+  margin: auto;
+  width: 80%;
+  min-height: 250px;
+  padding: 70px 0;
+  background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg');
+  background-position: center top;
+  border: 10px solid #fff;
+}
+
+header > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+header > h4 {
+  text-align: center;
+  text-transform: uppercase;font-weight: normal;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  background-color: #BC8F8F;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul a li {
+  padding: 10px;
+  display: inline-block;
+  line-height: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+nav ul a li:hover {
+  background-color: #708090;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+main::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.purple {
+  width: calc(50% - 20px);
+  background-color: #FFFAFA;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+div.purple h1 {
+  text-transform: uppercase;
+  color: #BC8F8F;
+  font-size: 42px;
+  padding: 20px 0 0 20px;
+}
+
+div p {
+  padding: 10px 0 0 10px;
+}
+
+div p.comments {
+  padding-top: 1px;
+}
+
+p i.icon {
+  color: grey;
+}
+
+div.purple p a{
+  font-weight: bold;
+}
+
+.cover-purple {
+  background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-09.jpg");
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.paragrafo-purple {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.bottom-nav-purple{
+  width: 90%;
+  background-color: lightgrey;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+div.bottom-nav-purple i {
+  padding: 10px;
+}
+
+.aside-left{
+  width: 25%;
+  background-color: #FFFAFA;
+  float: left;
+  padding: 20px;
+}
+
+aside.aside-left ul {
+  padding-left: 10px;
+}
+
+aside.aside-left ul a{
+  padding: 10px;
+  list-style-type: none;
+}
+
+
+
+.aside-right {
+  width: 25%;
+  float: left;
+}
+
+.square-right {
+  width: 100%;
+  background-color: #FFFAFA;
+  padding: 15px;
+}
+
+.square-right::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+div.square-right [type="text"] { /* POTEVO DICHIARARE SEMPLICEMENTE DELLE CLASSI O ID MA HO VOLUTO ESERCITARMI CON I CSS SELECTORS AVANZATI ;)*/
+float: left;
+padding: 10px;
+width: 75%;
+margin-right: 10px;
+}
+
+div.square-right button {
+  width: calc(25% - 10px);
+  background-color: #BC8F8F;
+  font-weight: bold;
+  float: left;
+  padding: 10px;
+}
+
+.square-right-margin-top {
+  margin-top: 20px;
+}
+
+.nav-tag-cloud{
+  margin-top: 10px;
+}
+
+div.nav-tag-cloud a {
+  font-size: 12px;
+}
+
+div.nav-tag-cloud a.special-tag {
+  font-size: 20px;
+}
+
+footer {
+  width: 80%;
+  background-color: lightblue;
+  margin: auto;
+}
+
+footer::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.paragrafo-footer {
+  width: 30%;
+  padding: 20px;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.social {
+  display: inline-block;
+  width: calc(60% - 50px);
+}
+
+.social-menu a {
+  color: grey;
+  font-size: 26px;
+  letter-spacing: 5px;
+}
+
+.social-menu li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: lightgrey;
+    border-radius: 75%;
+    padding: 8px;
+    float: right;
+
+}
