@@ -115,8 +115,7 @@ div.purple p a{
   font-weight: bold;
 }
 
-.cover-purple {
-  background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-09.jpg");
+.cover-purple img {
   width: 100%;
   height: 350px;
   background-size: cover;
@@ -245,5 +244,12 @@ footer::after{
     border-radius: 75%;
     padding: 8px;
     float: right;
+}
 
+.social-menu li:hover{
+  background-color: #A9A9A9;
+}
+
+.social-menu i {
+  margin-left: 4px;
 }
